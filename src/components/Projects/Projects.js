@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import Album from "../../Assets/Projects/Album.png";
 import awesometodos from "../../Assets/Projects/awesometodos.png";
 import PromiseRing from "../../Assets/Projects/PromiseRing.png";
+import KOMUN from "../../Assets/Projects/KOMUN.png";
+import TideTrace from "../../Assets/Projects/tidetrace.png";
 
 
 function Projects() {
@@ -49,6 +51,28 @@ function Projects() {
               description="A personal album project that showcases a collection of meaningful moments and memories through a visually engaging interface. It allows users to explore, organize, and relive special experiences in a structured and interactive way, combining storytelling with clean and modern UI design."
               ghLink="https://github.com/Labordoronvier/Our_Journey"
               demoLink="https://labordoronvier.github.io/Our_Journey/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={KOMUN}
+              isBlog={false}
+              title="Kumon"
+              description="Komun is a digital barangay management system designed to organize records, simplify service requests, and manage appointments efficiently. It helps barangay officials reduce delays, secure important information, and provide faster, more accessible services to the community."
+              ghLink=""
+              demoLink="https://www.figma.com/proto/jVjyBAVxpqs70555toLrRb/Komun?node-id=20-63&p=f&t=vofvrIrLkvUblkES-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TideTrace}
+              isBlog={false}
+              title="Tide Trace"
+              description="TideTrace is a community-based conservation platform that allows users to document, share, and monitor environmental observations through photos and location tracking. It promotes environmental awareness and community participation by providing a platform for reporting, reviewing, and managing conservation activities."
+              ghLink="https://github.com/kemgp/TideTrace"
+              demoLink="https://tide-trace.vercel.app"              
             />
           </Col>
 

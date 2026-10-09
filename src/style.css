@@ -18,6 +18,26 @@ html {
   color: blue !important;
 }
 
+.page-transition {
+  min-height: 100vh;
+  animation: page-fade-in 400ms ease-out;
+}
+
+@keyframes page-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-transition {
+    animation: none;
+  }
+}
+
 button:focus {
   box-shadow: none !important;
 } 
